@@ -1,0 +1,190 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+.navbar-custom {
+	height: 70px;
+	background-color: white;
+	color: #37474F;
+	font-weight: 500;
+	font-size: 1rem;
+	letter-spacing: 0.2rem;
+	margin-right: 30px;
+}
+
+.navbar-brand {
+	font-size: 40px;
+	font-family: 'Amatic SC', cursive;
+	letter-spacing: 0.2rem;
+	margin-left: 20px;
+}
+
+.navbar .nav-link:hover {
+	color: #3F729B;
+}
+
+.navbar .nav-link {
+	color: #605D5D;
+	margin-right: 15px;
+}
+
+#laurel_img {
+	margin-left: 10rem;
+	margin-top: 10rem;
+}
+
+#intro_outer {
+	padding-top: 10%;
+}
+
+#intro_inner {
+	min-height: 500px;
+	background-image: url('./images/landing/bg.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 950px 450px;
+}
+
+#poster_outer {
+	padding-top: 15%;
+}
+
+#poster_inner {
+	padding-top: 600px;
+	min-height: 50vw;
+	width: 100%;
+	background-image: url('./images/landing/poster.png');
+	background-repeat: no-repeat;
+	background-position: center 10%;
+	background-size: auto 100%;
+	background-attachment: fixed;
+	position: relative;
+}
+
+#about_outer {
+	padding-top: 50px;
+}
+
+#about_inner {
+	background-color: #E1CCC9;
+	margin-top: 20px;
+	font-size: 1.4rem;
+	color: #605D5D;
+	font-family: 'Oswald', cursive;
+	padding: 20px;
+	margin-bottom: 10rem;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+	box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+}
+
+#title {
+	background-color: #E1CCC9;
+	margin-top: 50px;
+	color: #3E4551;
+	letter-spacing: 0.2rem;
+	font-size: 40px;
+	font-family: 'Piedra', cursive;
+	text-align: center;
+}
+
+#partners_outer {
+	padding-top: 50px;
+}
+
+#partners_inner {
+	background-color: #E1CCC9;
+	margin-top: 20px;
+	font-size: 1.4rem;
+	font-family: 'Oswald', cursive;
+	color: #605D5D;
+	padding: 20px;
+	margin-bottom: 10rem;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+	box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+}
+
+#partners_col {
+	text-align: center;
+	padding: 10px;
+}
+
+#programme {
+	padding-top: 50px;
+}
+
+.card .card-link {
+	color: #2E2E2E;
+	font-size: 25px;
+	font-family: 'Oswald', cursive;
+}
+
+.card .card-link:hover {
+	text-decoration: none;
+	color: #3F729B;
+}
+
+.card .card-text {
+	color: #212121;
+	font-family: 'Oswald', cursive;
+	letter-spacing: 0.2rem;
+}
+
+.card .card-body {
+	background-color: #E1CCC9;
+}
+
+.card {
+	margin: 20px;
+}
+
+.film_area {
+	text-align: center;
+	margin-top: 12%;
+}
+
+footer {
+	background-color: #605D5D;/* #37474F;*/
+	color: #eceff1;
+	padding: 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+
+footer a {
+	color: #eceff1;
+}
+
+footer a:hover {
+	color: #bbdefb;
+	text-decoration: none;
+}
+
+.footer_div {
+	margin-top: 100px;
+}
+
+.modal-header {
+	background-color: #E1CCC9;
+	font-family: 'Oswald',cursive;
+}
+
+.modal-body {
+	text-align: center;
+	background-color: #E1CCC9;
+	height: 100%;
+	width: 100%;
+}
+
+.modal-footer {
+	background-color: #E1CCC9;
+	font-family: 'Oswald',cursive;
+}
+
+.modal-content {
+	background-color: #E1CCC9;
+}
