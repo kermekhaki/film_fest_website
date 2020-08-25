@@ -10,13 +10,14 @@ html {
 	font-weight: 500;
 	font-size: 1rem;
 	letter-spacing: 0.2rem;
-	margin-right: 30px;
+	padding-right: 10px;
+	padding-right: 10px;
 }
 
 .navbar-brand {
 	font-size: 40px;
 	font-family: 'Amatic SC', cursive;
-	letter-spacing: 0.2rem;
+	letter-spacing: 0.1rem;
 	margin-left: 20px;
 }
 
@@ -29,9 +30,18 @@ html {
 	margin-right: 15px;
 }
 
+#toggle_button {
+	color: white;
+}
+
+#menu_content {
+	text-align: right;
+}
+
 #laurel_img {
-	margin-left: 10rem;
-	margin-top: 10rem;
+	padding-left: 2rem;
+	padding-top: 1rem;
+	max-width: 100px;
 }
 
 #intro_outer {
@@ -67,10 +77,10 @@ html {
 }
 
 #about_inner {
-	background-color: #E1CCC9;
+	background-color: #C0929D;/*#E1CCC9;*/
 	margin-top: 20px;
 	font-size: 1.4rem;
-	color: #605D5D;
+	color: white;/*#605D5D;*/
 	font-family: 'Oswald', cursive;
 	padding: 20px;
 	margin-bottom: 10rem;
@@ -79,8 +89,8 @@ html {
 	box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
 }
 
-#title {
-	background-color: #E1CCC9;
+.title {
+	background-color: #C0929D;/*#E1CCC9;*/
 	margin-top: 50px;
 	color: #3E4551;
 	letter-spacing: 0.2rem;
@@ -93,17 +103,22 @@ html {
 	padding-top: 50px;
 }
 
-#partners_inner {
-	background-color: #E1CCC9;
+#partners_inner_1 {
+	background-color: #C0929D;/*#E1CCC9;*/
 	margin-top: 20px;
 	font-size: 1.4rem;
 	font-family: 'Oswald', cursive;
-	color: #605D5D;
+	color: white;/*#605D5D;*/
 	padding: 20px;
-	margin-bottom: 10rem;
+	/*margin-bottom: 10rem;*/
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
 	box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+}
+
+#partners_inner_2 {
+	margin-top: 5rem;
+	margin-bottom: 10rem;
 }
 
 #partners_col {
@@ -111,8 +126,35 @@ html {
 	padding: 10px;
 }
 
+#contact_outer {
+	padding-top: 50px;
+}
+
+.contact_underline {
+	text-decoration: underline;
+}
+
+#contact_inner{
+	text-align: center;
+	background-color: #C0929D;/*#E1CCC9;*/
+	margin-top: 20px;
+	font-size: 1.4rem;
+	font-family: 'Oswald', cursive;
+	color: white;/*#605D5D;*/
+	padding: 20px;
+	/*margin-bottom: 10rem;*/
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+	box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+}
+
 #programme {
 	padding-top: 50px;
+	margin-bottom: 10rem;
+}
+
+.card {
+	width: 24rem;
 }
 
 .card .card-link {
@@ -132,17 +174,35 @@ html {
 	letter-spacing: 0.2rem;
 }
 
+.card .card-body .card-text small {
+	color: white;
+}
+
 .card .card-body {
-	background-color: #E1CCC9;
+	background-color: #C0929D;/*#E1CCC9;*/
 }
 
 .card {
 	margin: 20px;
 }
 
+iframe {
+	width: 1000px;
+	height: 450px;
+}
+
 .film_area {
 	text-align: center;
 	margin-top: 12%;
+}
+
+.partner_img {
+	background-size: cover;
+	height: 150px;
+}
+
+a {
+	color: #37474F;
 }
 
 footer {
@@ -164,27 +224,93 @@ footer a:hover {
 	text-decoration: none;
 }
 
-.footer_div {
-	margin-top: 100px;
+#footer_content {
+	margin-top: 20rem;
+}
+
+#producers {
+	margin-top: 15px;
 }
 
 .modal-header {
-	background-color: #E1CCC9;
+	background-color: #C0929D;/*#E1CCC9;*/
 	font-family: 'Oswald',cursive;
 }
 
 .modal-body {
 	text-align: center;
-	background-color: #E1CCC9;
+	background-color: #C0929D;/*#E1CCC9;*/
 	height: 100%;
 	width: 100%;
 }
 
 .modal-footer {
-	background-color: #E1CCC9;
+	background-color: #C0929D;/*#E1CCC9;*/
 	font-family: 'Oswald',cursive;
 }
 
 .modal-content {
-	background-color: #E1CCC9;
+	background-color: #C0929D;/*#E1CCC9;*/
 }
+
+
+/* adjust according to screen width */
+/* this goes with meta tag with the viewport set */
+@media only screen and (max-width: 650px) {
+	.navbar-custom {
+		height: 100px;
+		background-color: white;
+		color: #37474F;
+		font-weight: 200;
+		font-size: 0.2rem;
+		letter-spacing: 0.1rem;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+	.navbar-brand {
+		font-size: 5px;
+		font-family: 'Amatic SC', cursive;
+		letter-spacing: 0.2rem;
+		margin-left: 0;
+	}
+
+	.navbar .nav-link {
+		color: #605D5D;
+		font-size: 15px;
+		text-align: right;
+	}
+
+	#laurel_img {
+		padding-left: 1rem;
+		margin-top: 0.5rem;
+		width: 70px;
+	}
+
+	#intro_outer {
+		padding-top: 10%;
+		width: 100%;	
+
+	}
+
+	#intro_inner {
+		min-height: 450px;
+		background-image: url('./images/landing/bg.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 500px 300px;
+	}
+
+	.partner_img {
+		background-size: cover;
+		height: 50px;
+	}
+
+
+	iframe {
+		width: auto;
+		height: auto;
+	}
+
+}
+
