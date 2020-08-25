@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8" name="description" content="Queer Qandī Film Festival">
-	<link rel="icon" href="./images/landing/laurel.png" type="image/x-icon">
-	<title>Queer Qandī Film Festival</title>
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta charset="utf-8" name="description" content="Queer Qandī Film Festival">
+  <link rel="icon" href="./images/landing/laurel.png" type="image/x-icon">
+  <title>Queer Qandī Film Festival</title>
 
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
-	
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oswald:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -27,20 +28,21 @@
 
 <div>
 <nav class="navbar navbar-custom fixed-top navbar-expand-lg">
-	<div class="navbar-brand">
-		<img id="laurel_img" src="./images/landing/laurel.png" width="100">
-	</div>
-	<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-		<span class="navbar-toggler-icon">Menu</span>
-	</button>
-	<div id="navbarMenu" class="collapse navbar-collapse">
-	<ul class="navbar-nav ml-auto">
-		<li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+  <div class="navbar-brand">
+    <img id="laurel_img" src="./images/landing/laurel.png">
+  </div>
+  <button class="navbar-toggler bg-dark" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span id="toggle_button">Menu</span>
+  </button>
+  <div id="navbarMenu" class="collapse navbar-collapse">
+  <ul class="navbar-nav ml-auto" id="menu_content">
+    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="#programme">Programme</a></li>
     <li class="nav-item"><a class="nav-link" href="#about_outer">About</a></li>
     <li class="nav-item"><a class="nav-link" href="#partners_outer">Partners</a></li>
-		<li class="nav-item"><a class="nav-link" href="#programme">Programme</a></li>
-	</ul>
-	</div>
+    <li class="nav-item"><a class="nav-link" href="#contact_outer">Contact</a></li>
+  </ul>
+  </div>
 </nav>
 </div>
 
@@ -60,8 +62,6 @@
   <div id="poster_inner"></div>
 </div>
 
-
-
 <!--
 
   About
@@ -70,56 +70,24 @@
 
 
 <div class="container" id="about_outer">
-    <div id="title">About</div>
+    <div class="title">About</div>
   <div id="about_inner">
 <p>
-It has been more than a year since we at <a href="https://qti.home.blog/" target="_blank">QTI Coalition of Colour</a>, set out to organise the queer qandī Journeys and Destinations film fest. A pandemic happened and we ended up cancelling the physical film fest planned for June 2020. 
+We are very grateful to all the amazing filmmakers and creatives who have submitted their work to the festival, for their patience. 
 </p>
 <p>
-We are very grateful to all the amazing filmmakers and creatives who have submitted their work to the festival, for their patience with this extremely long process of delay.
+It has been more than a year since we at <a href="https://qti.home.blog/" target="_blank">QTI Coalition of Colour</a>, set out to organise the queer qandī Journeys and Destinations film fest. A pandemic happened and we ended up cancelling the physical film fest planned for June 2020.
 </p>
 <p>
-We are thrilled to announce the dates for the festival which will be held 9-18 October 2020 with live events happening Saturday and Sunday 17-18 October. 
+When we initially made a call out we specified films from the Middle East, knowing that this geographical naming of the region is problematic and Eurocentric. The term SWANA (Southwest Asia and North Africa) has been used by feminist and queer scholars to describe the region in a geographical, decolonial, non-religious and non-Eurocentric way. We recognise that this term too will need to be re-examined and discussed as geographical boundaries will always bring separations and divides. We are aware that the geographical limits for the scope of the festival are problematic. We are also aware that any process of participation and selection may lead to a lack of diversity in representation of experiences; from the representation of ethnic minorities and racialised groups in the region to the intersection of ability and queer identities. We realise that the complexity of queer SWANA identity can not be represented by one film festival but we hope that this festival helps to create nuances in the representation of some of the queer SWANA identities.
+Our definition of journeys includes transcending and crossing of borders and barriers whether they are in the form of nations and places or bodies and identities. 
 </p>
 <p>
-When we initially made a call out we specified films from the Middle East, knowing that this geographical naming of the region is problematic and Eurocentric. The term SWANA (Southwest Asian and North Africa) has been used by feminist and queer scholars to describe the region in a geographical, decolonial, non-religious and non-Eurocentric way. We recognise that this term too will need to be re-examined and discussed as geographical boundaries will always bring separations and divides. We are aware that the geographical limits for the scope of the festival are problematic. We are also aware that any process of participation and selection may lead to a lack of diversity in representation of experiences; from the representation of ethnic minorities and racialised groups in the region to the intersection of ability and queer identities. We realise that the complexity of queer SWANA identity can not be represented by one film festival but we hope that this festival helps to create nuances in the representation of some of the queer SWANA identities.
+Our definition of journeys includes transcending and crossing of borders and barriers whether they are in the form of nations and places or bodies and identities.
 </p>
 <p>
 We would like to ask the members of the audience who do not speak the original language used in the films, to note that some of the languages spoken in the SWANA region do not make any distinction between the singular nominative pronouns He and She. Instead, they use a singular gender-neutral nominative case. However, the use of the English language in the subtitles has eradicated this nuance.
 </p>
-  </div>
-</div>
-
-
-<!--
-
-  Partners
-
--->
-
-
-<div class="container" id="partners_outer">
-    <div id="title">Partners</div>
-  <div id="partners_inner">
-    <p>
-      queer qandī Journeys and Destination Film Fest is a collaboration with Encompass Network in Cambridge and made possible by the generous sponsorship of The Centre for the Study of Global Human Movement at Cambridge University  and National Lottery’s 25th Anniversary.
-    </p>
-
-    <div class="row">
-      <div class="col" id="partners_col">
-    <img width="200" class="" src="./images/landing/qti.png" alt="">
-      </div>
-      <div class="col" id="partners_col">
-    <img width="200" class="" src="./images/landing/lotto.png" alt="">
-      </div>
-
-      <div class="col" id="partners_col">
-    <img width="200" class="" src="./images/landing/camb.png" alt="">
-      </div>
-      <div class="col" id="partners_col">
-    <img width="200" class="" src="./images/landing/encompass.png" alt="">
-      </div>
-    </div>
   </div>
 </div>
 
@@ -134,7 +102,7 @@ We would like to ask the members of the audience who do not speak the original l
 
 <div id="programme">
 <div class="container my_container">
-  	<div id="title">Programme</div>
+    <div class="title">Programme</div>
   <div class="text-white text-center">
     <div class="row justify-content-md-center">
       <div class="card-group">
@@ -148,7 +116,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Fiction</p>
           <p class="card-text">Language: Turkish with English subtitles</p>
           <p class="card-text">Director: Nicolas Jakubiak</p>
-          <p class="card-text"><small class="text-muted">Duration: 19 mins 58 seconds</small></p>
+          <p class="card-text"><small>Duration: 19 mins 58 seconds</small></p>
         </div>
         </div>
 
@@ -160,19 +128,19 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Fiction</p>
           <p class="card-text">Language: Farsi with English subtitles</p>
           <p class="card-text">Director: Sadeq Es-haqi</p>
-          <p class="card-text"><small class="text-muted">Duration: 14 mins</small></p>
+          <p class="card-text"><small>Duration: 14 mins</small></p>
           </div>
         </div>
 
         <div class="card">
-          <img width="100" height="200" class="card-img-top" src="./images/films/explicit.jpg" alt="Explicit">
+          <img width="100" height="200" class="card-img-top" src="./images/films/explicit.png" alt="Explicit">
           <div class="card-body">
             <h5 class="card-title"><a href="explicit.html" target="_blank" class="card-link" data-toggle="modal" data-target="#explicit_modal">Explicit <i class="fa fa-play-circle"> </i></a></h5>
           <p class="card-text">Country: Iran</p>
           <p class="card-text">Genre: Fiction</p>
           <p class="card-text">Language: Farsi with English subtitles</p>
           <p class="card-text">Director: Farshad Bagheri</p>
-          <p class="card-text"><small class="text-muted">Duration: 13 mins 37 seconds</small></p>
+          <p class="card-text"><small>Duration: 13 mins 37 seconds</small></p>
           </div>
         </div>
       </div>
@@ -187,7 +155,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Fiction</p>
           <p class="card-text">Language: Farsi with English subtitles</p>
           <p class="card-text">Director: Neda Khanifar</p>
-          <p class="card-text"><small class="text-muted">Duration: 3 mins 20 seconds</small></p>
+          <p class="card-text"><small>Duration: 3 mins 20 seconds</small></p>
         </div>
         </div>
 
@@ -199,7 +167,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Experimental</p>
           <p class="card-text">Language: Arabic with English subtitles</p>
           <p class="card-text">Director: Joseph Gebrael, Andrew Gebrael</p>
-          <p class="card-text"><small class="text-muted">Duration: 4 mins 44 seconds</small></p>
+          <p class="card-text"><small>Duration: 4 mins 44 seconds</small></p>
           </div>
         </div>
 
@@ -211,7 +179,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Experimental</p>
           <p class="card-text">Language: No dialogue</p>
           <p class="card-text">Director: Seyed Abdolrahim Ghatali</p>
-          <p class="card-text"><small class="text-muted">Duration: 10 mins 3 seconds</small></p>
+          <p class="card-text"><small>Duration: 10 mins 3 seconds</small></p>
           </div>
         </div>
       </div>
@@ -226,7 +194,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Documentary</p>
           <p class="card-text">Language: Turkish with English subtitles</p>
           <p class="card-text">Director: Volkan Güleryüz</p>
-          <p class="card-text"><small class="text-muted">Duration: 20 mins</small></p>
+          <p class="card-text"><small>Duration: 20 mins</small></p>
         </div>
         </div>
 
@@ -238,7 +206,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Experimental</p>
           <p class="card-text">Language: Turkish with English subtitles</p>
           <p class="card-text">Director: Sena Özaydın, Bengisu Şimşek</p>
-          <p class="card-text"><small class="text-muted">Duration: 1 mins 20 seconds</small></p>
+          <p class="card-text"><small>Duration: 1 mins 20 seconds</small></p>
           </div>
         </div>
 
@@ -250,7 +218,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Fiction</p>
           <p class="card-text">Language: Farsi with English subtitles</p>
           <p class="card-text">Director: Mahtab Pishghadam</p>
-          <p class="card-text"><small class="text-muted">Duration: 9 mins 15 seconds</small></p>
+          <p class="card-text"><small>Duration: 9 mins 15 seconds</small></p>
           </div>
         </div>
       </div>
@@ -265,7 +233,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Fiction</p>
           <p class="card-text">Language: Farsi with English subtitles</p>
           <p class="card-text">Director: Saeid Nemat</p>
-          <p class="card-text"><small class="text-muted">Duration: 14 mins 58 seconds</small></p>
+          <p class="card-text"><small>Duration: 14 mins 58 seconds</small></p>
         </div>
         </div>
 
@@ -277,7 +245,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Essayistic poetic short</p>
           <p class="card-text">Language: Farsi, Hebrew, German with English subtitles</p>
           <p class="card-text">Director: Zarah Zandieh</p>
-          <p class="card-text"><small class="text-muted">Duration: 20 mins</small></p>
+          <p class="card-text"><small>Duration: 20 mins</small></p>
           </div>
         </div>
 
@@ -289,7 +257,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Documentary</p>
           <p class="card-text">Language: Arabic with English subtitles</p>
           <p class="card-text">Director: Mouaad el Salem</p>
-          <p class="card-text"><small class="text-muted">Duration: 25 mins 46 seconds</small></p>
+          <p class="card-text"><small>Duration: 25 mins 46 seconds</small></p>
           </div>
         </div>
       </div>
@@ -305,7 +273,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Documentary</p>
           <p class="card-text">Language: Hebrew with English subtitles</p>
           <p class="card-text">Director: Itay Akirav</p>
-          <p class="card-text"><small class="text-muted">Duration: 10 mins 46 seconds</small></p>
+          <p class="card-text"><small>Duration: 10 mins 46 seconds</small></p>
         </div>
         </div>
 
@@ -317,7 +285,7 @@ We would like to ask the members of the audience who do not speak the original l
           <p class="card-text">Genre: Fiction</p>
           <p class="card-text">Language: Turkish with English subtitles</p>
           <p class="card-text">Director: Doğuş Minsin</p>
-          <p class="card-text"><small class="text-muted">Duration: 10 mins 43 seconds</small></p>
+          <p class="card-text"><small>Duration: 10 mins 43 seconds</small></p>
           </div>
         </div>
 
@@ -333,16 +301,96 @@ We would like to ask the members of the audience who do not speak the original l
 
 <!--
 
+  Partners
+
+-->
+
+
+<div class="container" id="partners_outer">
+    <div class="title">Partners</div>
+  <div id="partners_inner_1">
+<p>
+queer qandī Journeys and Destinations film fest is happy to have <a href="https://www.facebook.com/dina.nagapetiants">Dina Nagapetians</a> and <a href="https://twitter.com/MishaYakovlev2">Misha Yakovlev</a> from <a href="https://queerasia.com/the-queeps/">‘Queer’ Asia</a> as guest curators. ‘Queer’ Asia is a collective of researchers and activists, working to build a global platform from which to challenge dominant ideas, forms, and representations of gender and sexuality. Reach out to ‘Queer’ Asia on <a href="https://twitter.com/TheQueerAsia">Twitter</a>, <a href="https://www.facebook.com/queerasia">Facebook</a> and <a href="https://www.instagram.com/queerasia/">Instagram</a>.
+</p>
+<p>
+queer qandī Journeys and Destination Film Fest has been possible thanks to collaboration with <a href="http://encompassnetwork.org.uk/">Encompass Network</a> in Cambridge and made possible by the generous sponsorship of <a href="https://www.humanmovement.cam.ac.uk/">The Centre for the Study of Global Human Movement</a> at Cambridge University, <a href="https://www.lgbtq.sociology.cam.ac.uk/About">lgbtQ+@CAM</a> at Cambridge University and <a href="https://www.tnlcommunityfund.org.uk/about/the-national-lotterys-25th-birthday">National Lottery’s 25th Anniversary</a>. 
+</p>
+  </div>
+    <div class="row" id="partners_inner_2">
+      <div class="col" id="partners_col">
+    <img class="partner_img" src="./images/landing/qti_logo_transparant.png" alt="">
+      </div>
+      <div class="col" id="partners_col">
+    <img class="partner_img" src="./images/landing/lotto.png" alt="">
+      </div>
+      <div class="col" id="partners_col">
+    <img class="partner_img" src="./images/landing/qa.png" alt="">
+      </div>
+    </div>
+
+    <div class="row" id="partners_inner_2">
+      <div class="col" id="partners_col">
+    <img class="partner_img" src="./images/landing/camb2.jpg" alt="">
+      </div>
+      <div class="col" id="partners_col">
+    <img class="partner_img" src="./images/landing/lgbtq_cam.png" alt="">
+      </div>
+    </div>
+    <div class="row" id="partners_inner_2">
+      <div class="col" id="partners_col">
+    <img class="partner_img" src="./images/landing/encompass.png" alt="">
+      </div>
+    </div>
+</div>
+
+
+<!--
+
+  Contact
+
+-->
+
+
+<div class="container" id="contact_outer">
+    <div class="title">Contact</div>
+  <div id="contact_inner">
+<p>
+<span class="contact_underline">
+Festival producers:
+</span>
+</p>
+<p>
+<a href="mailto:info@zadissa.com">Elmira Zadissa</a> (She/Her)
+</p>
+<p>
+<a href="mailto:info@zadissa.com">Ramona Zadissa</a> (They/Them)
+</p>
+<p>
+<span class="contact_underline">
+Festival poster by:
+</span>
+</p>
+<p>
+<a href="http://www.instagram.com/spcpnk">@spcpnc</a>
+</p>
+
+  </div>
+</div>
+
+
+
+<!--
+
   Footer
 
 -->
 
 
-<div class="footer_div">
+<div id="footer_content">
 <footer class="page-footer font-small">
   <div class="container">
-    <div class="row text-center d-flex justify-content-center">
-      <div class="">
+      <div class="row text-center d-flex justify-content-center">
+
         <div class="flex-center">
           <a target="_blank" href="https://www.facebook.com/qti.coalition">
             <i class="fa fa-facebook-f fa-lg white-text mr-4"> </i>
@@ -354,8 +402,8 @@ We would like to ask the members of the audience who do not speak the original l
             <i class="fa fa-instagram fa-lg white-text mr-4"> </i>
           </a>
         </div>
-      </div>
     </div>
+
   </div>
 </footer>
 </div>
@@ -383,8 +431,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -413,8 +461,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -443,8 +491,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -473,8 +521,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -503,9 +551,9 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
-          <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
+          <iframe src="https://player.vimeo.com/video/451615206" frameborder="0" allowfullscreen></iframe>
         </div>
         
         <!-- Modal footer -->
@@ -533,8 +581,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -563,8 +611,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -593,9 +641,9 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
-          <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
+          <iframe src="https://player.vimeo.com/video/451617588" frameborder="0" allowfullscreen></iframe>
         </div>
         
         <!-- Modal footer -->
@@ -623,8 +671,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -653,8 +701,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -683,8 +731,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -713,8 +761,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -743,8 +791,8 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
           <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
         </div>
         
@@ -773,9 +821,9 @@ We would like to ask the members of the audience who do not speak the original l
         <!-- Modal body -->
         <div class="modal-body">
           <!--<img class="" height="80%" width="80%" style="position:relative;margin:0px;" src="./images/landing/film_date.png" alt="">-->
-          <h1>Will be available live between October 9-18</h1>
-          <h2>Get your ticket from <a href="">link</a></h2>
-          <!--<iframe src="https://player.vimeo.com/video/444974212" height="450" width="1000" frameborder="0" allowfullscreen></iframe>-->
+          <h1>This film will be available 9-18<sup>th</sup> October 2020</h1>
+          <!--<h2>Get your ticket from <a href="">link</a></h2>-->
+          <iframe src="https://player.vimeo.com/video/326554733" frameborder="0" allowfullscreen></iframe>
         </div>
         
         <!-- Modal footer -->
