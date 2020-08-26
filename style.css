@@ -4,14 +4,16 @@ html {
 }
 
 .navbar-custom {
-	height: 70px;
+	height: 120px;
 	background-color: white;
 	color: #37474F;
 	font-weight: 500;
 	font-size: 1rem;
 	letter-spacing: 0.2rem;
 	padding-right: 10px;
-	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 2px;
+	margin-top: 0px;
 }
 
 .navbar-brand {
@@ -40,12 +42,12 @@ html {
 
 #laurel_img {
 	padding-left: 2rem;
-	padding-top: 1rem;
-	max-width: 100px;
+	padding-top: 0px;
+	max-width: 110px;
 }
 
 #intro_outer {
-	padding-top: 10%;
+	padding-top: 5%;
 }
 
 #intro_inner {
@@ -53,27 +55,27 @@ html {
 	background-image: url('./images/landing/bg.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 950px 450px;
+	background-size: 900px 400px;
 }
 
 #poster_outer {
-	padding-top: 15%;
+	padding-top: 10%;
 }
 
 #poster_inner {
-	padding-top: 600px;
-	min-height: 50vw;
+	/*padding-top: 60%;*/
+	min-height: 50rem;
 	width: 100%;
 	background-image: url('./images/landing/poster.png');
 	background-repeat: no-repeat;
 	background-position: center 10%;
 	background-size: auto 100%;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	position: relative;
 }
 
 #about_outer {
-	padding-top: 50px;
+	padding-top: 10%;
 }
 
 #about_inner {
@@ -100,7 +102,7 @@ html {
 }
 
 #partners_outer {
-	padding-top: 50px;
+	padding-top: 10%;
 }
 
 #partners_inner_1 {
@@ -127,7 +129,7 @@ html {
 }
 
 #contact_outer {
-	padding-top: 50px;
+	padding-top: 10%;
 }
 
 .contact_underline {
@@ -149,12 +151,18 @@ html {
 }
 
 #programme {
-	padding-top: 50px;
+	padding-top: 10%;
 	margin-bottom: 10rem;
 }
 
 .card {
-	width: 24rem;
+	width: 400px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
 }
 
 .card .card-link {
@@ -256,9 +264,10 @@ footer a:hover {
 
 /* adjust according to screen width */
 /* this goes with meta tag with the viewport set */
-@media only screen and (max-width: 650px) {
+
+@media only screen and (max-width: 800px) {
 	.navbar-custom {
-		height: 100px;
+		height: 120px;
 		background-color: white;
 		color: #37474F;
 		font-weight: 200;
@@ -266,6 +275,8 @@ footer a:hover {
 		letter-spacing: 0.1rem;
 		padding-right: 10px;
 		padding-left: 10px;
+		padding-top: 2px;
+		margin-top: 0px;
 	}
 
 	.navbar-brand {
@@ -283,7 +294,7 @@ footer a:hover {
 
 	#laurel_img {
 		padding-left: 1rem;
-		margin-top: 0.5rem;
+		padding-top: 0px;
 		width: 70px;
 	}
 
@@ -303,7 +314,7 @@ footer a:hover {
 
 	.partner_img {
 		background-size: cover;
-		height: 50px;
+		height: 60px;
 	}
 
 
@@ -312,5 +323,110 @@ footer a:hover {
 		height: auto;
 	}
 
+	#poster_inner {
+		/*padding-top: 60%;*/
+		min-height: 30rem;
+		width: 100%;
+		background-image: url('./images/landing/poster.png');
+		background-repeat: no-repeat;
+		background-position: center 10%;
+		background-size: auto 100%;
+		background-attachment: scroll;
+		position: relative;
+	}
+
+	.card {
+		width: auto;
+	}
+
+	.card-img-top {
+		width: 100%;
+		height: 35vw;
+		object-fit: cover;
+	}
+
 }
 
+
+@media screen and (max-width: 450px) {
+
+	.navbar-custom {
+		height: 90px;
+		background-color: white;
+		color: #37474F;
+		font-weight: 200;
+		font-size: 0.2rem;
+		letter-spacing: 0.1rem;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-top: 2px;
+		margin-top: 0px;
+	}
+
+	#intro_outer {
+		padding-top: 15%;
+		width: 100%;
+	}
+
+	#poster_outer {
+		padding-top: 15%;
+	}
+
+	#about_outer {
+		padding-top: 15%;
+	}
+
+	#partners_outer {
+		padding-top: 10%;
+	}
+
+	#programme {
+		padding-top: 15%;
+		margin-bottom: 10rem;
+	}
+
+	#contact_outer {
+		padding-top: 15%;
+	}
+
+	#intro_inner {
+		min-height: 450px;
+		background-image: url('./images/landing/bg.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 380px 200px;
+	}
+
+	#laurel_img {
+		padding-left: 1rem;
+		padding-top: 0px;
+		width: 50px;
+	}
+
+	#poster_inner {
+		/*padding-top: 60%;*/
+		min-height: 30rem;
+		width: 100%;
+		background-image: url('./images/landing/poster.png');
+		background-repeat: no-repeat;
+		background-position: center 10%;
+		background-size: auto 100%;
+		background-attachment: scroll;
+		position: relative;
+	}
+
+	.card {
+		width: auto;
+	}
+
+	.card-img-top {
+		width: 100%;
+		height: 35vw;
+		object-fit: cover;
+	}
+
+	.partner_img {
+		background-size: cover;
+		height: 60px;
+	}
+}
