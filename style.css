@@ -150,14 +150,25 @@ html {
 	box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
 }
 
+#poster_by {
+	font-size: 70%;
+	margin-top: 70px;
+}
+
 #programme {
 	padding-top: 10%;
 	margin-bottom: 10rem;
 }
 
 .card {
+	margin: 20px;
 	width: 400px;
+	height: 510px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+	box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
 }
+
 
 .card-img-top {
     width: 100%;
@@ -190,8 +201,8 @@ html {
 	background-color: #C0929D;/*#E1CCC9;*/
 }
 
-.card {
-	margin: 20px;
+.card .event_cards {
+	background-color: #e0e0e0;
 }
 
 iframe {
@@ -211,6 +222,11 @@ iframe {
 
 a {
 	color: #37474F;
+}
+
+a:hover {
+	color: #37474F;
+	cursor: pointer;
 }
 
 footer {
@@ -259,6 +275,12 @@ footer a:hover {
 
 .modal-content {
 	background-color: #C0929D;/*#E1CCC9;*/
+	color: white;
+}
+
+.event_modal_header_span {
+	font-size: 70%;
+	display: inline-block;
 }
 
 
@@ -337,6 +359,7 @@ footer a:hover {
 
 	.card {
 		width: auto;
+		height: auto;
 	}
 
 	.card-img-top {
@@ -417,6 +440,7 @@ footer a:hover {
 
 	.card {
 		width: auto;
+		height: auto;
 	}
 
 	.card-img-top {
