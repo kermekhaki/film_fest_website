@@ -202,7 +202,7 @@ html {
 }
 
 .card .event_cards {
-	background-color: #e0e0e0;
+	background-color: #d8bbb7;
 }
 
 iframe {
@@ -358,8 +358,8 @@ footer a:hover {
 	}
 
 	.card {
-		width: auto;
-		height: auto;
+		width: 325px;
+		height: 450px;
 	}
 
 	.card-img-top {
@@ -387,7 +387,7 @@ footer a:hover {
 	}
 
 	#intro_outer {
-		padding-top: 15%;
+		padding-top: 5%;
 		width: 100%;
 	}
 
@@ -439,8 +439,8 @@ footer a:hover {
 	}
 
 	.card {
-		width: auto;
-		height: auto;
+		width: 325px;
+		height: 450px;
 	}
 
 	.card-img-top {
