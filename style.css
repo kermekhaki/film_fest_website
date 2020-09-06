@@ -150,7 +150,7 @@ html {
 	box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
 }
 
-#poster_by {
+#design_by {
 	font-size: 70%;
 	margin-top: 70px;
 }
@@ -163,7 +163,7 @@ html {
 .card {
 	margin: 20px;
 	width: 400px;
-	height: 510px;
+	height: 550px;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
 	box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
@@ -199,6 +199,10 @@ html {
 
 .card .card-body {
 	background-color: #C0929D;/*#E1CCC9;*/
+}
+
+.card .custom_card {
+	background-color: white;/*#E1CCC9;*/
 }
 
 .card .event_cards {
@@ -359,7 +363,7 @@ footer a:hover {
 
 	.card {
 		width: 325px;
-		height: 450px;
+		height: 550px;
 	}
 
 	.card-img-top {
@@ -440,7 +444,7 @@ footer a:hover {
 
 	.card {
 		width: 325px;
-		height: 450px;
+		height: 550px;
 	}
 
 	.card-img-top {
