@@ -85,10 +85,20 @@ html {
 	color: white;/*#605D5D;*/
 	font-family: 'Oswald', cursive;
 	padding: 20px;
-	margin-bottom: 10rem;
+	margin-bottom: 5rem;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
 	box-shadow: 10px 10px 5px 0px rgba(201,189,201,1);
+}
+
+#about_trailer {
+	margin-top: 0px;
+	text-align: center;
+}
+
+#about_trailer_vid {
+	width: 600px;
+	height: 300px;
 }
 
 .title {
@@ -349,6 +359,11 @@ footer a:hover {
 		height: auto;
 	}
 
+	#about_trailer_vid {
+		width: 500px;
+		height: 250px;
+	}
+
 	#poster_inner {
 		/*padding-top: 60%;*/
 		min-height: 30rem;
@@ -401,6 +416,11 @@ footer a:hover {
 
 	#about_outer {
 		padding-top: 15%;
+	}
+
+	#about_trailer_vid {
+		width: auto;
+		height: auto;
 	}
 
 	#partners_outer {
