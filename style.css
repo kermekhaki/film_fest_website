@@ -186,6 +186,13 @@ html {
     object-fit: cover;
 }
 
+
+#thanks_card {
+	color: #2E2E2E;
+	font-size: 25px;
+	font-family: 'Oswald', cursive;
+}
+
 .card .card-link {
 	color: #2E2E2E;
 	font-size: 25px;
